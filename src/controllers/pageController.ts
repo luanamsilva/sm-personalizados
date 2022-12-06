@@ -1,10 +1,9 @@
 import { Request, Response } from "express";
 import {Product} from '../models/product';
-import { createdMenuObject } from '../helpers/createdMenuObjects'
+import { createdMenuObject } from "../helpers/createdMenuObjects";
 
 export const home = (req: Request, res:Response) =>{
 let list = Product.getAll();
-
 res.render('pages/page',{
   menu: createdMenuObject('all'),
   banner: {

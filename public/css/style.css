@@ -1,10 +1,9 @@
 :root {
   --pagebg: #FEF1F9;
   --main: #966978;
-  --bglink: rgba(0, 0, 0, 0.3);
   --darkbg: #FDFBFB;
   --lightbg: #88704A;
-  --lighter: #444;
+
 }
 
 * {
@@ -37,6 +36,26 @@ header input {
   font-size: 14px;
   width: 100%;
   max-width: 200px;
+}
+.favicon{
+  max-width: 25px;
+  padding: 0px;
+}
+p{
+  padding: 15px;
+}
+.contact{
+  background: #966978;
+  padding: 40px;
+  color: #FEF1F9;
+  text-align: center;
+}
+.contact-adress{
+  background: #966978;
+  padding: 15px;
+  text-decoration: none;
+  color: #FEF1F9;
+  text-align: center;
 }
 
 .logo{
